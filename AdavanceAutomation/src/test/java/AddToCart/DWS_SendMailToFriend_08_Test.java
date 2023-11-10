@@ -30,11 +30,12 @@ public class DWS_SendMailToFriend_08_Test extends BaseClass {
 		logger.log(Status.INFO, "User write some text on messageTextField");
 		
 		sendMail.getSendMail().click();
-		logger.log(Status.INFO, "User click on sendMail button");
+		logger.log(Status.INFO, "User click on sendMail button User click on sendMail button");
 		
 		Thread.sleep(5000);
 		String errorMsg = sendMail.getErrorMessage().getText();
 		System.out.println(errorMsg);
+		System.out.println("hello");
 		
 		
 	}
